@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "name": "שם מלא",
+      "type": "ShortAnswer"
+    },
+    {
+      "name": "אימייל",
+      "type": "Email"
+    },
+    {
+      "name": "טלפון",
+      "type": "PhoneNumber"
+    },
+    {
+      "name": "סטטוס פנייה",
+      "type": "MultipleChoice",
+      "options": ["חדש", "בטיפול", "הושלם", "בוטל"]
+    },
+    {
+      "name": "קטגוריות רלוונטיות",
+      "type": "MultiSelect",
+      "options": ["שיווק", "מכירות", "תמיכה", "פיתוח", "כספים"]
+    },
+    {
+      "name": "עדיפות",
+      "type": "Dropdown",
+      "options": ["נמוכה", "בינונית", "גבוהה", "דחופה"]
+    },
+    {
+      "name": "תיאור הפנייה",
+      "type": "LongAnswer"
+    },
+    {
+      "name": "תאריך יעד",
+      "type": "DatePicker"
+    },
+    {
+      "name": "מחלקות מעורבות",
+      "type": "Checkboxes",
+      "options": ["HR", "IT", "משפטי", "כספים", "הנהלה"]
+    },
+    {
+      "name": "סכום",
+      "type": "CurrencyInput"
+    }
+  ]
+}
